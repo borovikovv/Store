@@ -1,0 +1,23 @@
+.cart-page {
+  text-align: center;
+}
+  
+.cart-page .total {
+  text-align: right;
+  font-size: 1.3rem;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+.cart-header {
+  margin-top: 105px;
+  margin-left: 4rem;
+}
+  
+.cart-btn {
+  display: inline-block;
+  justify-content: center;
+  width: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
