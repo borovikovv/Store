@@ -19,16 +19,16 @@ class CartContainer extends Component {
   }
 }
 
-const mapStateToProps = ({cartItems, orderTotal}) => {
+const mapStateToProps = ({products: {cartItems, orderTotal}}) => {
   return{
     items: cartItems,
     total: orderTotal
   }
 }
   
-  const mapDispatchToProps = {
-    OnDelete: deleteItems,
-    decreaseBascetCount: decreaseBascetCount
-  };
-  
-  export default connect(mapStateToProps, mapDispatchToProps)(CartContainer);
+const mapDispatchToProps = {
+  OnDelete: deleteItems,
+  decreaseBascetCount: decreaseBascetCount
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(CartContainer);

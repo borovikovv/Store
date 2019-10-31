@@ -23,7 +23,7 @@ class HeaderContainer extends Component {
         )
     }
 }
-const mapStateToProps = ({ orderTotal, totalCount} ) => {
+const mapStateToProps = ({products: { orderTotal, totalCount}} ) => {
     return {
         orderTotal,
         totalCount
