@@ -1,4 +1,8 @@
 Магазин создан с помощью Create-react-app.
+
+Посмотреть магазин:
+https://demo-store-appp.herokuapp.com
+
 Чтоб установить проект на свой ПК:
 1. клонируйте его с github - git clone https://github.com/borovikovv/Store.git
 2. ввойдите в папку с проектом - cd store
